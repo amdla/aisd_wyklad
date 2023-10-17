@@ -67,6 +67,12 @@ build CMakeFiles/aisd_wyklad.dir/w02/liniowe.c.obj: C_COMPILER__aisd_wyklad_unsc
   OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
   OBJECT_FILE_DIR = CMakeFiles\aisd_wyklad.dir\w02
 
+build CMakeFiles/aisd_wyklad.dir/w03/quickSort.c.obj: C_COMPILER__aisd_wyklad_unscanned_Debug C$:/Users/macie/CLionProjects/aisd_wyklad/w03/quickSort.c || cmake_object_order_depends_target_aisd_wyklad
+  DEP_FILE = CMakeFiles\aisd_wyklad.dir\w03\quickSort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
+  OBJECT_FILE_DIR = CMakeFiles\aisd_wyklad.dir\w03
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aisd_wyklad
@@ -75,7 +81,7 @@ build CMakeFiles/aisd_wyklad.dir/w02/liniowe.c.obj: C_COMPILER__aisd_wyklad_unsc
 #############################################
 # Link the executable aisd_wyklad.exe
 
-build aisd_wyklad.exe: C_EXECUTABLE_LINKER__aisd_wyklad_Debug CMakeFiles/aisd_wyklad.dir/w02/MergeSort.c.obj CMakeFiles/aisd_wyklad.dir/w02/insort.c.obj CMakeFiles/aisd_wyklad.dir/w02/liniowe.c.obj
+build aisd_wyklad.exe: C_EXECUTABLE_LINKER__aisd_wyklad_Debug CMakeFiles/aisd_wyklad.dir/w02/MergeSort.c.obj CMakeFiles/aisd_wyklad.dir/w02/insort.c.obj CMakeFiles/aisd_wyklad.dir/w02/liniowe.c.obj CMakeFiles/aisd_wyklad.dir/w03/quickSort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
