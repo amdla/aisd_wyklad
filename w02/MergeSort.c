@@ -2,11 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-
 //scalanie nie zawiera 1. rekurencji 2. algorytmu dzielącego
 //scalamy każde pary w posortowane pary
 //duze zapotrzebowanie na pamiec

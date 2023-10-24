@@ -55,7 +55,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -95,7 +97,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -110,19 +114,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "w02/insort.c",
+			"path" : "w02/Insort.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "w02/liniowe.c",
+			"path" : "w03/QuickSort.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "w03/quickSort.c",
+			"path" : "w04/HeapSort.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "w04/PriorityQueueAndHeap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "w04/MergeFiles.c",
 			"sourceGroupIndex" : 0
 		}
 	],

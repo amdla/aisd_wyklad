@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
 
 //wstawianie
 //algorytm jest odporny na zduplikowane dane np 2 i 2

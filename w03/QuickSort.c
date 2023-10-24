@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
 
 int podziel(double t[], int p, int k) {
     int i, j;

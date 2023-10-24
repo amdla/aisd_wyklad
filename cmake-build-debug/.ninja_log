@@ -1,0 +1,8 @@
+# ninja log v5
+4	96	7198492912785397	CMakeFiles/aisd_wyklad.dir/w02/insort.c.obj	ed3d759c4a05cb88
+4	113	7198495188025197	CMakeFiles/aisd_wyklad.dir/w04/jeszczeNieWiemCo.c.obj	a6d3eb3a0870cbe8
+113	292	7198495189762443	aisd_wyklad.exe	b765be947ec36a75
+3	111	7198492753003817	CMakeFiles/aisd_wyklad.dir/w02/MergeSort.c.obj	f0a83b8a3ac277c2
+3	129	7198493191234759	CMakeFiles/aisd_wyklad.dir/w03/quickSort.c.obj	bc58cc793bbe2d9f
+3	124	7198493080207856	CMakeFiles/aisd_wyklad.dir/w02/liniowe.c.obj	b46beb240afd5fda
+3	82	7198492546570228	CMakeFiles/aisd_wyklad.dir/w04/heapSort.c.obj	ce05c2d61af2f347
