@@ -67,10 +67,10 @@ void mergeFiles(FILE *in[], int n, FILE *out) {
     }
 
     while (n > 0) {
-        fprintf(out, "%g\n", h[0].x);
-        if (fscanf(heap[0].f, "%lf", &(h[0].x)) != 1) {
+        fprintf(out, "%g\n", heap[0].x);
+        if (fscanf(heap[0].f, "%lf", &(heap[0].x)) != 1) {
             fclose(heap[0].f);
-            h[0] = heap[--n];
+            heap[0] = heap[--n];
         }
         heap_down(heap, n);
     }

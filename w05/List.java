@@ -8,7 +8,7 @@ public class List<T extends Comparable<T>> {
 			tail = head;
 		} else {
 			tail.append( x );
-			tail = tail.next;
+			tail = tail.next;:
 		}
 	}
 
