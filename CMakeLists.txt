@@ -9,4 +9,8 @@ add_executable(aisd_wyklad
         w03/QuickSort.c
         w04/HeapSort.c
         w04/PriorityQueueAndHeap.c
-        w04/MergeFiles.c)
+        w04/MergeFiles.c
+        w05/lista.c
+        w06/stos.h
+        w06/stos.c
+        w06/bst.h)

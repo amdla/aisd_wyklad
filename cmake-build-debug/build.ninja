@@ -85,6 +85,18 @@ build CMakeFiles/aisd_wyklad.dir/w04/MergeFiles.c.obj: C_COMPILER__aisd_wyklad_u
   OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
   OBJECT_FILE_DIR = CMakeFiles\aisd_wyklad.dir\w04
 
+build CMakeFiles/aisd_wyklad.dir/w05/lista.c.obj: C_COMPILER__aisd_wyklad_unscanned_Debug C$:/Users/macie/CLionProjects/aisd_wyklad/w05/lista.c || cmake_object_order_depends_target_aisd_wyklad
+  DEP_FILE = CMakeFiles\aisd_wyklad.dir\w05\lista.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
+  OBJECT_FILE_DIR = CMakeFiles\aisd_wyklad.dir\w05
+
+build CMakeFiles/aisd_wyklad.dir/w06/stos.c.obj: C_COMPILER__aisd_wyklad_unscanned_Debug C$:/Users/macie/CLionProjects/aisd_wyklad/w06/stos.c || cmake_object_order_depends_target_aisd_wyklad
+  DEP_FILE = CMakeFiles\aisd_wyklad.dir\w06\stos.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aisd_wyklad.dir
+  OBJECT_FILE_DIR = CMakeFiles\aisd_wyklad.dir\w06
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aisd_wyklad
@@ -93,7 +105,7 @@ build CMakeFiles/aisd_wyklad.dir/w04/MergeFiles.c.obj: C_COMPILER__aisd_wyklad_u
 #############################################
 # Link the executable aisd_wyklad.exe
 
-build aisd_wyklad.exe: C_EXECUTABLE_LINKER__aisd_wyklad_Debug CMakeFiles/aisd_wyklad.dir/w02/MergeSort.c.obj CMakeFiles/aisd_wyklad.dir/w02/Insort.c.obj CMakeFiles/aisd_wyklad.dir/w03/QuickSort.c.obj CMakeFiles/aisd_wyklad.dir/w04/HeapSort.c.obj CMakeFiles/aisd_wyklad.dir/w04/PriorityQueueAndHeap.c.obj CMakeFiles/aisd_wyklad.dir/w04/MergeFiles.c.obj
+build aisd_wyklad.exe: C_EXECUTABLE_LINKER__aisd_wyklad_Debug CMakeFiles/aisd_wyklad.dir/w02/MergeSort.c.obj CMakeFiles/aisd_wyklad.dir/w02/Insort.c.obj CMakeFiles/aisd_wyklad.dir/w03/QuickSort.c.obj CMakeFiles/aisd_wyklad.dir/w04/HeapSort.c.obj CMakeFiles/aisd_wyklad.dir/w04/PriorityQueueAndHeap.c.obj CMakeFiles/aisd_wyklad.dir/w04/MergeFiles.c.obj CMakeFiles/aisd_wyklad.dir/w05/lista.c.obj CMakeFiles/aisd_wyklad.dir/w06/stos.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aisd_wyklad.dir

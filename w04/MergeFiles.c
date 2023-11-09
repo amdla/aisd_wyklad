@@ -44,7 +44,7 @@ void heap_down(char *t, int n, size_t size, int(*f)(const void *, const void *))
             break;
         }
     }
-    free(tmp);
+    //free(tmp);
 
 }
 
@@ -72,7 +72,7 @@ void mergeFiles(FILE *in[], int n, FILE *out) {
             fclose(heap[0].f);
             heap[0] = heap[--n];
         }
-        heap_down(heap, n);
+        //heap_down(heap, n);
     }
     fclose(out);
 }

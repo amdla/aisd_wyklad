@@ -21,3 +21,4 @@ analiza kosztu zamortyzowanego:
 dla n operacji tablica wykonuje O(n^2) + O(n) operacji, a kopiec wykonuje
 2 * O(n log(n))
 
+drzewo wyważone: h~log(2)n

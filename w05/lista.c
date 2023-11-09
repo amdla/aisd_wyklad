@@ -103,7 +103,7 @@ list_t insort_nr(list_t l, double x) {
         return n;
     } else {
         list_t it = l;
-        while (it->next != NULL && it->nex->x <= x)
+        while (it->next != NULL && it->next->x <= x)
             it = it->next;
         list_t n = malloc(sizeof *n);
         n->x = x;
