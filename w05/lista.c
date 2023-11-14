@@ -112,22 +112,22 @@ list_t insort_nr(list_t l, double x) {
         return l;
     }
 }
-
-#include <string.h>
-
-int main(int argc, char **argv) {
-
-    list_t (*f)(list_t, double) = strcmp(argv[0], "./fifo") == 0 ? append : insert;
-    list_t l = NULL;
-
-    for (int i = 1; i < argc; i++)
-        l = f(l, atof(argv[i]));
-
-    while (l != NULL) {
-        double x;
-        l = pop(l, &x);
-        printf("%g\n", x);
-    }
-
-    return 0;
-}
+//
+//#include <string.h>
+//
+//int main(int argc, char **argv) {
+//
+//    list_t (*f)(list_t, double) = strcmp(argv[0], "./fifo") == 0 ? append : insert;
+//    list_t l = NULL;
+//
+//    for (int i = 1; i < argc; i++)
+//        l = f(l, atof(argv[i]));
+//
+//    while (l != NULL) {
+//        double x;
+//        l = pop(l, &x);
+//        printf("%g\n", x);
+//    }
+//
+//    return 0;
+//}

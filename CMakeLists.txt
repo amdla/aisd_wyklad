@@ -13,4 +13,5 @@ add_executable(aisd_wyklad
         w05/lista.c
         w06/stos.h
         w06/stos.c
-        w06/bst.h)
+        w06/bst.h
+        w07/zlicz.c)
